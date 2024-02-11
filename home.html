@@ -6,55 +6,84 @@
     <link rel="stylesheet" href="./public/css/output.css">
     <title>Meowtallica</title>
     <link rel="shortcut icon" href="./public/img/white-ninja-star.png" type="image/x-icon">
+
 </head>
 <body>
     <header>
-        <nav class="bg-black"> --*********hover
-            <ul class="flex justify-evenly mx-32 items-center text-white list-none font-semibold hover:font-extrabold">
-                <li><a href="">About us</a></li>
-                <li><a href="">Media</a></li>
-                <li><a href="">Music</a></li>
-                <li><a href="" ><img class="h-24 w-25" src="./public/img/main_logo.png" alt="Meowtallica band logo"></a></li>
-                <li><a href="">Events</a></li>
-                <li><a href="">Merch</a></li>
-                <li><a href="">Contact us</a></li>
+        <nav class="bg-black px-20"> --*********hover
+            <ul class="flex justify-between items-center text-white list-none font-semibold ">
+                <li><a href="" class="hover:font-extrabold hover:text-yellow-400">About us</a></li>
+                <li><a href="" class="hover:font-extrabold hover:text-yellow-400">Media</a></li>
+                <li><a href="" class="hover:font-extrabold hover:text-yellow-400">Music</a></li>
+                <li><a href="" class="hover:font-extrabold hover:text-yellow-400" ><img class="h-24 w-25" src="./public/img/main_logo.png" alt="Meowtallica band logo"></a></li>
+                <li><a href="" class="hover:font-extrabold hover:text-yellow-400">Events</a></li>
+                <li><a href="" class="hover:font-extrabold hover:text-yellow-400">Merch</a></li>
+                <li><a href="" class="hover:font-extrabold hover:text-yellow-400">Contact us</a></li>
             </ul>
         </nav>
-        <section class="bg-cover bg-no-repeat bg-center h-screen min-w-fit p-36 " style="background-image: url(./public/img/cat-face.jpg);"  >
-            <h1 class=" text-white font-bold text-5xl ">LIFE IS OURS,<br>WE <span class=" text-yellow-400">MEOW</span> IT OUR WAY</h1>
+        <section class="bg-cover bg-no-repeat bg-center h-screen min-w-fit p-20" style="background-image: url(./public/img/cat-face.jpg);"  >
+            <h1 class=" w-fit mt-24 leading-relaxed text-white font-bold text-5xl ">LIFE IS OURS,<br>WE <span class=" text-[#FFFF01]">MEOW</span> IT OUR WAY</h1>
         </section>
     </header>
-    <main class="bg-[#585858]">
-        <section class=" flex justify-evenly mx-32 py-12  min-w-fit items-center">
-            <section>
-                <img src="./public/img/one_album_cover.png" alt="One album cover" class=" w-3/4">
-            </section>
-            <section class=" m-8 bg-red-700">
-                <h4 class=" text-4xl font-extrabold">LATEST RELEASE</h4> 
-                <h3 class=" text-2xl font-bold text-yellow-400">ONE</h3>
+    <div class=" -mt-52 w-0 h-0 border-b-[200px] border-b-[#585858] border-l-[1235px] border-l-transparent"></div>
+    <main class="bg-[#585858] px-20">
+        <section class=" flex justify-start gap-x-10 w-fit mb-10">
+            <div>
+                <img src="./public/img/one_album_cover.png" alt="One album cover" class=" shadow-lg shadow-[#FFFF01] max-w-[500px] max-h-[500px]">
+            </div>
+            <div class=" pt-10 w-96 ">
+                <div class=" flex align-middle gap-5 mb-5">
+                    <img src="./public/img/biohazard.png" alt="biohazard icon" class="w-10 h-10">
+                    <h4 class=" text-4xl font-extrabold ">LATEST RELEASE</h4> 
+                </div>
+                <h3 class=" text-4xl text-center font-extrabold text-[#FFFF01] ">ONE</h3>
                 <p class=" leading-loose text-white">A visceral plunge into the chaos of war. <br>Our music screams the story of a wounded soldier, grappling with the brutal aftermath. <br>It's an anthem of resilience, a sonic storm capturing the essence of human struggle in the face of destruction.</p>
-                <p class=" text-yellow-400 bg-black p-2">LISTEN NOW</p>
-            </section>
+                <div class="flex justify-center">
+                    <button class=" text-center bg-black text-[#FFFF01] px-3 py-2 hover:bg-[#292929] focus:shadow focus:shadow-[#FFFF01]" >LISTEN NOW</button>
+                </div>
+            </div>
         </section>
-        <section>
-            <h4>UPCOMING EVENTS</h4>
-            <section class=" flex ">
-                <img src="./public/img/event-1.jpg" alt="Event location image">
-                <img src="./public/img/event-2.jpg" alt="Event location image">
-                <img src="./public/img/event-3.jpg" alt="Event location image">
-            </section>
+        <section class=" py-20">
+            <div class=" flex align-middle gap-5 mb-5">
+                <img src="./public/img/biohazard.png" alt="biohazard icon" class="w-10 h-10">
+                <h4 class=" text-4xl font-extrabold ">UPCOMING EVENTS</h4> 
+            </div>
+            <div class=" flex justify-between gap-5">
+                <div class=" w-[280px]">
+                    <img src="./public/img/event-1.jpg" alt="Event location image" class=" relative shadow shadow-[#FFFF01] hover:shadow-lg hover:shadow-[#FFFF01] h-96">
+                    <p class=" absolute text-white font-bold text-xl">BLUE MOON FESTIVAL <br> 13TH AUGUST</p>
+                    <button class=" text-black bg-[#FFFF01] absolute">GET TICKET NOW</button>
+                </div>
+                <div class=" w-[280px]">
+                    <img src="./public/img/event-2.jpg" alt="Event location image" class=" relative shadow shadow-[#FFFF01] hover:shadow-lg hover:shadow-[#FFFF01] h-96">
+                    <p class="absolute text-white font-bold text-xl">YELLOW FESTIVAL <br> 20TH SEPTEMBER</p>
+                    <button class=" text-black bg-[#FFFF01] absolute ">GET TICKET NOW</button>
+                    <img src="./public/img/mad-black-cat.png" alt="cat icon" class=" w-14 h-14" >
+                </div>
+                <div class=" w-[280px]">
+                    <img src="./public/img/event-3.jpg" alt="Event location image" class=" relative shadow shadow-[#FFFF01] hover:shadow-lg hover:shadow-[#FFFF01] h-96">
+                    <p class="absolute text-white font-bold text-xl">LUNA NOIR FESTIVAL <br> 31TH OCTOBER</p>
+                    <button class=" text-black bg-[#FFFF01] absolute">GET TICKET NOW</button>
+                </div>
+            </div>
         </section>
     </main>
     <footer class=" bg-black">
-        <h4>SUBSCRIBE TO OUR NEWSLETTER</h4>
-        <p>Subscribe to get our latest news and event announcements straight to you.</p>
-        <section class=" flex">
-            <img src="./public//img/youtube_icon.png" alt="Youtube icon">
-            <img src="./public/img/instagram_icon.png" alt="Instagram icon">
-            <img src="./public/img/tiktok_icon.png" alt="Tiktok icon">
-            <img src="./public/img//mail_icon.png" alt="Gmail icon">
+        <div class=" w-0 h-0 border-t-[100px] border-t-[#585858] border-l-[1238px] w- screen border-l-transparent"></div>
+        <section class=" text-white flex flex-col justify-center w-fit px-20">
+            <h4 class=" text-2xl font-bold "> <span class=" text-[#FFFF01] font-semibold">SUBSCRIBE</span> TO OUR NEWSLETTER</h4>
+            <p>Subscribe to get our latest news and event announcements straight to you.</p>
+            <button class=" bg-[#FFFF01] text-black  font-bold w-fit px-3 py-1  mt-7 hover:shadow hover:bg-[#585858] focus:shadow-md focus:shadow-[#FFFF01]">SUBSCRIBE</button>
         </section>
-        <p>&copy Peachechee Shenanigans and Tomfoolery</p>
+        <div class=" flex w-screen justify-center px-20 pb-3 pt-16 ">
+            <img class=" w-7 h-7 mx-5 hover:shadow hover:shadow-[#FFFF01]"   src="./public//img/youtube_icon.png" alt="Youtube icon">
+            <img class=" w-7 h-7 mx-5 hover:shadow hover:shadow-[#FFFF01]"   src="./public/img/instagram_icon.png" alt="Instagram icon">
+            <img class=" w-7 h-7 mx-5 hover:shadow hover:shadow-[#FFFF01]"   src="./public/img/tiktok_icon.png" alt="Tiktok icon">
+            <img class=" w-7 h-7 mx-5 hover:shadow hover:shadow-[#FFFF01]"   src="./public/img//mail_icon.png" alt="Gmail icon">
+        </div>
+        <div>
+            <p class="text-white px-20 text-center text-xs ">&copy Peachechee Shenanigans and Tomfoolery</p>
+        </div>
     </footer>
 </body>
 </html>
