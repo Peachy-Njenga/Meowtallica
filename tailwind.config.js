@@ -5,7 +5,11 @@ module.exports = {
     "./**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        metal: 'Metal Mania',
+      }
+    },
   },
   plugins: [],
 }
